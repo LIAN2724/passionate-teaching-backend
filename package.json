@@ -1,0 +1,14 @@
+{
+  "name": "passionate-teaching-backend",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "apply": "node scripts/apply-migrations.mjs",
+    "seed": "node scripts/seed.mjs",
+    "reset": "node scripts/reset.mjs"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.4"
+  }
+}
